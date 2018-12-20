@@ -21,6 +21,10 @@ setup(
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
     ],
+data_files=[
+        ('', [os.path.join('dll', 'hidapi.dll')]),
+        ('', [os.path.join('dll', 'hidapi-x64.dll')])
+    ],
     keywords='',
     author='Austin Morton',
     author_email='amorton@juvsoft.com',
